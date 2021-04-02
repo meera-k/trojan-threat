@@ -2,6 +2,7 @@ body
 {
     background-color: #212121;
     text-align: center;
+    color: #e3e3e3
 }
 
 /* Automatically set the styles for any h1 elements in the HTML */
@@ -40,6 +41,7 @@ div.article-link
 .article-link-title:hover
 {
     color: #e3e3e3;
+    text-decoration: none;
 }
 
 h4.article-link-subtitle
