@@ -1,0 +1,48 @@
+body
+{
+    background-color: #212121;
+}
+
+/* Automatically set the styles for any h1 elements in the HTML */
+h1
+{
+    color: #e3e3e3;
+}
+
+/* Automatically set the styles for any h2 elements in the HTML */
+h2
+{
+    color: #e3e3e3;
+}
+
+/*div class that adds padding for different sections of the page*/
+div.section
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*div class that adds a little top and bottom padding to separate article links from one another*/
+div.article-link
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p.article-link-title
+{
+    color: red; /*placeholder*/
+}
+
+p.article-link-subtitle
+{
+    color: cyan; /*placeholder*/
+}
+
+p.article-link-author
+{
+    color: green; /*placeholder*/
+}
+

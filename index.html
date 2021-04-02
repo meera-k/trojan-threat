@@ -1,2 +1,91 @@
-<doctype !HTML>
-<!--test commet-->
+<!--Trojan attacks info website, main page (Emily Chen, Joey Ardizzone, Meera Kumar, Abby Chou)-->
+<!--HTML by Abby-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Trojan Attacks</title>
+    
+    <!--Bootstrap CDN below: -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Setup to make the page responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Linking in our custom stylesheet, styles.css-->
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+      <!--Bootstrap's container-fluid div resizes to automatically fill the size of the browser window, and all the webpage content goes inside it.
+        px-0 gets rid of any margins on the sides of the container-->
+      <div class="container-fluid px-0">
+
+        <!--Header image, downloaded from: https://unsplash.com/photos/iar-afB0QQw then cropped it and applied filters
+          src defines the path, img-fluid makes it fill the whole width of the main container, and alt is the text that shows up if the image can't-->
+        <img src="images/green-text.jpeg" class="img-fluid" alt="Green Computer Text">
+
+        <!--Info on the bootstrap row system & how it works: https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp -->
+        <div class="row no-gutters">
+
+          <div class="col-md-3"></div>
+
+          <!--Main content of the page takes up 6 out of 12 columns, if the screen size is medium (tablet) or bigger,
+          otherwise it takes up the whole screen (on phones)-->
+          <div class="col-sm-12 col-md-6">
+            <div class="section">
+              <h2>What are trojan attacks?</h2>
+              <p>Information Information Information wowoowowowowow</p>
+            </div>
+
+            <div class="section">
+
+              <h2>Infamous attacks</h2>
+
+              <div class="article-link">
+                <p class="article-link-title">Insert Title Here</h1>
+                <p class="article-link-subtitle">Insert subtitle here</h2>
+                <p class="article-link-author">by [NAME]</h3>
+              </div>
+
+              <div class="article-link">
+                <p class="article-link-title">Insert Title Here</h1>
+                <p class="article-link-subtitle">Insert subtitle here</h2>
+                <p class="article-link-author">by [NAME]</h3>
+              </div>
+
+              <div class="article-link">
+                <p class="article-link-title">Insert Title Here</h1>
+                <p class="article-link-subtitle">Insert subtitle here</h2>
+                <p class="article-link-author">by [NAME]</h3>
+              </div>
+
+              <div class="article-link">
+                <p class="article-link-title">Insert Title Here</h1>
+                <p class="article-link-subtitle">Insert subtitle here</h2>
+                <p class="article-link-author">by [NAME]</h3>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-3"></div>
+
+        </div>
+
+      </div>
+  </body>
+</html>
