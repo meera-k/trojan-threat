@@ -1,6 +1,7 @@
 body
 {
     background-color: #212121;
+    text-align: center;
 }
 
 /* Automatically set the styles for any h1 elements in the HTML */
@@ -33,16 +34,16 @@ div.article-link
 
 .article-link-title
 {
-    color: red; /*placeholder*/
+    color: #00bd4f;
 }
 
 h4.article-link-subtitle
 {
-    color: cyan; /*placeholder*/
+    color: #03873a;
 }
 
 h5.article-link-author
 {
-    color: green; /*placeholder*/
+    color: #c5fcdc;
 }
 
