@@ -31,17 +31,17 @@ div.article-link
     padding-bottom: 10px;
 }
 
-p.article-link-title
+.article-link-title
 {
     color: red; /*placeholder*/
 }
 
-p.article-link-subtitle
+h4.article-link-subtitle
 {
     color: cyan; /*placeholder*/
 }
 
-p.article-link-author
+h5.article-link-author
 {
     color: green; /*placeholder*/
 }
