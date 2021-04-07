@@ -1,0 +1,88 @@
+<!--Trojan attacks info website, emotet attack page (by Emily Chen)-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Magic Lantern Attack</title>
+    
+    <!--Bootstrap CDN below: -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Setup to make the page responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Linking in our custom stylesheet, styles.css-->
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+      <!--Bootstrap's container-fluid div resizes to automatically fill the size of the browser window, and all the webpage content goes inside it.
+        px-0 gets rid of any margins on the sides of the container-->
+      <div class="container-fluid px-0">
+
+        <!--TODO: Change this image to something different!!! :D-->
+        <!--Header image, downloaded from: https://unsplash.com/photos/iar-afB0QQw then cropped it and applied filters
+          src defines the path, img-fluid makes it fill the whole width of the main container, and alt is the text that shows up if the image can't-->
+        <img src="images/green-text.jpeg" class="img-fluid" alt="Green Computer Text">
+
+        <!--Info on the bootstrap row system & how it works: https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp -->
+        <div class="row no-gutters">
+
+          <div class="col-md-3"></div>
+
+          <!--Main content of the page takes up 6 out of 12 columns, if the screen size is medium (tablet) or bigger,
+          otherwise it takes up the whole screen (on phones)-->
+          <div class="col-sm-12 col-md-6">
+            <div class="section">
+                <h1>
+                    Emotet
+                </h1>
+
+                <img src="https://www.cyfirma.com/media/2020/03/2018-11-28-CYFIRMA-Threat-Update-The-return-of-the-Emotet-malware.png" width="75%">
+
+                <p>Emotet is a malware known to be used in cybercrime operations. First detected in 2014, it has remained active, though the primary servers for its operation were shut down due to police action in Germany and Ukraine. Believed to have originated in Russia, the trojan horse style virus was first meant to steal bank login information. Updated  between 2016 and 2017, it was repurposed to enable operators to load additional malware and malicious programs onto computers.</p>
+
+                <p>As typical of many trojan horse viruses, it is mostly spread through email attachments containing Word documents. Appearing to be a legitimate reply to a previous message, the email may seem to contain invoices, shipping notices or even information about COVID-19. </p>
+
+                <p>Once it has been installed on a device connected to a network, it is able to load tools onto the device to help it spread.</p>
+
+                <p>So far, the main purpose of Emotet has been to construct botnets of infected computers, then to use these computers in what is called crimeware, or malware as a service. Access to the botnet may have been rented out, to other cybercrime groups.</p>
+
+                <p>Besides using infected computers as a botnet, Emotet sometimes allowed the downloading of ransomware without the user’s knowledge, encrypting data and demanding a fee to access it.  Anybody can be a target of this, and even some schools and police stations have been attacked in a similar way.</p>
+
+                <p>The United States Department of Homeland Security estimates that the average Emotet incident causes 1 million dollars in damage. While basic cybersecurity awareness is helpful, many anti-virus softwares struggle to detect botnet malware such as Emotet. This is because it is polymorphic, meaning that the virus code changes each time it is called up. Be cautious opening any email attachment, even ones that seem to be safe file types like word documents, and contact the sender at a number or email address that you know to be theirs to double check.</p>
+
+                <h1>
+                    Sources
+                </h1>
+
+                <p>
+                    <a href="https://www.fbi.gov/news/stories/emotet-malware-disrupted-020121">Emotet Malware Disrupted</a> </br>
+                    <a href="https://www.eurojust.europa.eu/worlds-most-dangerous-malware-emotet-disrupted-through-global-action">World's Most Dangerous Malware Emotet Disrupted Through Global Action</a> </br>
+                    <a href="https://www.kaspersky.com/resource-center/threats/emotet">Emotet</a>
+                </p>
+
+
+            </div>
+          </div>  
+          
+          <div class="col-md-3"></div>
+
+        </div>
+
+      </div>
+  </body>
+</html>

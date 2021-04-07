@@ -15,6 +15,12 @@ h1
 h2
 {
     color: #e3e3e3;
+    text-align: left;
+}
+
+p
+{
+    text-align: left;
 }
 
 /*div class that adds padding for different sections of the page*/
@@ -54,3 +60,13 @@ h5.article-link-author
     color: #c5fcdc;
 }
 
+#hero-image-text
+{
+    font-family: 'Monaco', monospace;
+    letter-spacing: 8px;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
