@@ -1,0 +1,139 @@
+<!--Trojan attacks info website, Zeus page (by Meera Kumar)-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Zeus</title>
+    
+    <!--Bootstrap CDN below: -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Setup to make the page responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Linking in our custom stylesheet, styles.css-->
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+      <!--Bootstrap's container-fluid div resizes to automatically fill the size of the browser window, and all the webpage content goes inside it.
+        px-0 gets rid of any margins on the sides of the container-->
+      <div class="container-fluid px-0">
+
+        <!--TODO: Change this image to something different!!! :D-->
+        <!--Header image, downloaded from: https://unsplash.com/photos/iar-afB0QQw then cropped it and applied filters
+          src defines the path, img-fluid makes it fill the whole width of the main container, and alt is the text that shows up if the image can't-->
+          <img src="images/green-text.jpeg" class="img-fluid" alt="Green Computer Text">
+
+        <!--Info on the bootstrap row system & how it works: https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp -->
+        <div class="row no-gutters">
+
+          <div class="col-md-3"></div>
+
+          <!--Main content of the page takes up 6 out of 12 columns, if the screen size is medium (tablet) or bigger,
+          otherwise it takes up the whole screen (on phones)-->
+          <div class="col-sm-12 col-md-6">
+            <div class="section">
+              <h1>Zeus</h1>
+
+              <p>
+                This very dangerous trojan attack was first detected in 2009, when it was found to be stealing information from the US Department of Transportation. The original Zeus trojan, developed in 2007, worked by taking the form of spam emails, online advertisements, and false links pushed by search engines through a process known as SEO* poisoning.
+              </p>
+
+              <p>
+                <i>
+                  * SEO stands for Search Engine Optimisation, and it is essentially a means of gaming the system by which search engines index websites and rank them. By employing SEO tactics, you can make sure that your website will rank higher in the index and thus be more likely to be clicked on by someone who has just made a query (ie. searched for something online).
+                </i>
+              </p>
+
+              <h2>
+                Where did it come from?
+              </h2>
+
+              <p>
+                27-year-old computer science graduate Hamza Bendelladj developed the Zeus trojan attack in 2007 to steal money from US agencies (eg. banks, financial establishments, etc.). The millions of dollars he stole were given to Palestinian charities. For this reason, Bendelladj is considered by some to be a hero, and by others to be a villain. 
+              </p>
+
+              <h2>
+                What were the consequences?
+              </h2>
+
+              <p>
+                In July 2009, after it was first detected, security software company Prevx reported that the Zeus trojan had compromised almost 90,000 FTP* credentials from prominent corporate websites, including sites like Bank of America, Amazon, Cisco, and NASA, just to name a few. In doing so, the Zeus trojan allowed for the access of a lot of sensitive information, and led to the loss of a lot of money.
+              </p>
+
+              <p>
+                <i>
+                  * FTP stands for File Transfer Protocol, and it is exactly what it sounds like.
+                </i>
+              </p>
+
+              <h2>
+                How exactly did it work?
+              </h2>
+              
+              <img style="padding: 5%" src = "https://1tskcg39n5iu1jl9xp2ze2ma-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/zbot-botnet-depiction.png" width = "75%">
+
+              <p>
+                Firstly, it had to infect the user’s computer. It did so by utilizing spam messages and tricking users into clicking on a link that would take them to a page on a malicious website, and by infecting downloadable files from the Internet. The Zeus trojan was able to infect websites and insert their own malicious code into downloadable files so that when a user downloads one of such files, they will inadvertently download the trojan’s harmful code as well.
+              </p>
+
+              <p>
+                From there, it joined the user’s computer to a botnet. Through keylogging and website monitoring, the trojan was able to know when the user entered sensitive information and save it on its end so that it could be used to steal the user’s money, for example.
+              </p>
+
+              <h2>
+                That was then. What about now?
+              </h2>
+
+              <p>
+                The source code for the original Zeus trojan was leaked in 2011 so it became useless, but since then, many versions of it have come up, all with the same main tactics and goals. Zeus Sphinx, one such variant, has surfaced recently in part due to the COVID-19 pandemic. Using government relief payments as its way in, Sphinx has been targeting banks and financial institutions in the US, Canada, and Australia. As technology advances, so do these Zeus variants, so protecting our devices is still as important as ever.
+              </p>
+
+              <h2>
+                How can we defend ourselves?
+              </h2>
+
+              <p>
+                Now, with different versions of the original Zeus trojan circling the globe, it has become more and more difficult to prevent these attacks. The best way to keep yourself safe is to be cautious when receiving emails and downloading files. Before clicking on any links in an email, make sure that the sender is who they claim to be, and check the content of the email. Generally, if it’s a fake email from someone you know, the message will have grammatical errors or won’t seem like something the real sender would say. Additionally, when downloading files, check to make sure that the connection on the website you are downloading from is secure. If it is, then this means that the Certificate Authority has verified that the website you are on is what it claims to be and not a fake replica designed to trick people. Overall, taking caution when you see something that seems a bit unsafe is the best way to protect yourself.
+              </p>
+
+              <h2>
+                Sources
+              </h2>
+
+              <p>
+                <a href="https://www.2-spyware.com/remove-zeus-trojan.html">Explanation of the trojan</a>
+                <br>
+                <a href="https://www.digitaldefense.com/blog/zeus-trojan-what-it-is-how-to-prevent-it-digital-defense/">How the trojan works</a>
+                <br>
+                <a href="https://www.bankinfosecurity.com/enhanced-zeus-sphinx-trojan-used-in-covid-19-schemes-a-14267">Zeus Sphinx is still out there</a> 
+                <br>
+                <a href="https://www.aljazeera.com/news/2015/9/21/hamza-bendelladj-is-the-algerian-hacker-a-hero">Who created it</a>
+                <br>
+                <a href=?https://redmondmag.com/articles/2009/07/21/zeus-trojan-blamed-for-ftp-thefts.aspx">Zeus stole FTP credentials in 2009</a>
+
+              </p>
+            </div>
+          </div>  
+          
+          <div class="col-md-3"></div>
+
+        </div>
+
+      </div>
+  </body>
+</html>
