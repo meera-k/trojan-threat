@@ -1,3 +1,5 @@
+/*Styles for Trojan Website
+CSS by Meera and Emily*/
 body
 {
     background-color: #212121;
@@ -19,6 +21,11 @@ h2
 }
 
 p
+{
+    text-align: left;
+}
+
+li
 {
     text-align: left;
 }
