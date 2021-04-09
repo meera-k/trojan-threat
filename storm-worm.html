@@ -1,0 +1,106 @@
+<!--Trojan attacks info website, magic latern attack page (by Joey Ardizzone)-->
+<!--HTML by Abby-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Magic Lantern Attack</title>
+    
+    <!--Bootstrap CDN below: -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Setup to make the page responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Linking in our custom stylesheet, styles.css-->
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+      <!--Bootstrap's container-fluid div resizes to automatically fill the size of the browser window, and all the webpage content goes inside it.
+        px-0 gets rid of any margins on the sides of the container-->
+      <div class="container-fluid px-0">
+
+        <!--TODO: Change this image to something different!!! :D-->
+        <!--Header image, downloaded from: https://unsplash.com/photos/iar-afB0QQw then cropped it and applied filters
+          src defines the path, img-fluid makes it fill the whole width of the main container, and alt is the text that shows up if the image can't-->
+          <img src="images/green-text.jpeg" class="img-fluid" alt="Green Computer Text">
+
+        <!--Info on the bootstrap row system & how it works: https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp -->
+        <div class="row no-gutters">
+
+          <div class="col-md-3"></div>
+
+          <!--Main content of the page takes up 6 out of 12 columns, if the screen size is medium (tablet) or bigger,
+          otherwise it takes up the whole screen (on phones)-->
+          <div class="col-sm-12 col-md-6">
+            <div class="section">
+              <h1>Storm Worm</h1>
+
+              <p>
+                The “Storm Worm” is malware--a worm, trojan, and botnet all rolled into one--that spreads through social engineering tactics. Once a computer has downloaded the malicious program, the machine is added to Storm’s massive botnet. 
+              </p>
+
+              <p>
+                The first deployment of Storm was discovered in January 2007, spreading via a malicious email titled “230 dead as storm batters Europe.” Since then it has spread through a variety of different emails, including fake headlines about political scandals. The emails attempt to get the recipient to run a .exe file, which will then integrate the computer into the Storm botnet. It also infected websites, including an official GOP site, which could immediately infect any computer that visited it. The virus was targeted at users with Windows operating systems.
+              </p>
+
+              <h2>
+                  Technical tactics
+              </h2>
+              <p>
+                Storm used a variety of tactics to ensure that it could not be tracked and shut down, including:
+              </p>
+
+              <ul>
+                    <li>
+                      Decentralized command - the machines that give commands to other machines on the botnet only know of the few machines they interact with, and there is no central command point that controls the entire botnet. Hence, if one command server is shut down, the botnet will persist.
+                    </li>
+                    <li>
+                        “Fast flux” DNS - the IP addresses that correspond to the domain names of command servers are constantly changed, so even if an infected machine is debugged and an IP address found, it may not be in use anymore.
+                    </li>
+                    <li>
+                        Unchanged behavior - machines infected with Storm won’t show any decline or change in performance, meaning that the users will probably not notice that they’re infected.
+                    </li>
+                    <li>
+                        Dormant machines - at any given time, the majority of the machines on the botnet are dormant, or inactive. Only a small group of devices is engaged in attacks or spreading the worm, meaning that it’s impossible to detect and remove the software from all infected machines.
+                    </li>
+                    <li>
+                        Attacks on researchers - the botnet knows when investigators are trying to debug and detect it, and it immediately DDoS’es them to take them off the internet.
+                    </li>
+              </ul>
+
+              <p>
+                Due to these tactics, no one ever knew exactly where the botnet came from or how big it was. However, it was probably of Russian origin, and some have estimated that at its height, the botnet comprised millions of machines. It has been used to influence people to buy a certain stock as part of a pump-and-dump, but other than that, the founders’ purpose in creating it remains unknown. Some researchers have alleged that Storm was selling parts of the botnet to other criminal groups, for spam or DDoS attacks.
+              </p>
+
+              <p>
+                In 2008 the botnet declined in size and power, as a Windows security update and antivirus software learned to detect some forms of the virus. However, much about the botnet is still shrouded in mystery.
+              </p>
+
+              <p>
+                Our risk of being infected with Storm is pretty low now, and can be lowered by not clicking on unknown links and keeping antivirus software up to date (you can also become immune to Storm by just running MacOS or Linux ;) )
+              </p>
+            </div>
+          </div>  
+          
+          <div class="col-md-3"></div>
+
+        </div>
+
+      </div>
+  </body>
+</html>
