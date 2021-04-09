@@ -67,7 +67,7 @@ h5.article-link-author
     color: #c5fcdc;
 }
 
-#hero-image-text
+.hero-image-text
 {
     font-family: 'Monaco', monospace;
     letter-spacing: 8px;
