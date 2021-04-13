@@ -36,7 +36,7 @@
         <!--TODO: Change this image to something different!!! :D-->
         <!--Header image, downloaded from: https://unsplash.com/photos/iar-afB0QQw then cropped it and applied filters
           src defines the path, img-fluid makes it fill the whole width of the main container, and alt is the text that shows up if the image can't-->
-        <img src="images/green-text.jpeg" class="img-fluid" alt="Green Computer Text">
+        <img src="https://www.zdnet.com/a/hub/i/2019/04/11/1df1f32e-bbc1-4cee-866e-864a7f8f8ea6/emotet.png" class="img-fluid" style = "width: 100%;">
 
         <!--Info on the bootstrap row system & how it works: https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp -->
         <div class="row no-gutters">
@@ -51,19 +51,25 @@
                     Emotet
                 </h1>
 
-                <img src="https://www.cyfirma.com/media/2020/03/2018-11-28-CYFIRMA-Threat-Update-The-return-of-the-Emotet-malware.png" width="75%">
-
                 <p>Emotet is a malware known to be used in cybercrime operations. First detected in 2014, it has remained active, though the primary servers for its operation were shut down due to police action in Germany and Ukraine. Believed to have originated in Russia, the trojan horse style virus was first meant to steal bank login information. Updated  between 2016 and 2017, it was repurposed to enable operators to load additional malware and malicious programs onto computers.</p>
 
-                <p>As typical of many trojan horse viruses, it is mostly spread through email attachments containing Word documents. Appearing to be a legitimate reply to a previous message, the email may seem to contain invoices, shipping notices or even information about COVID-19. </p>
+                <img src="https://www.cyfirma.com/media/2020/03/2018-11-28-CYFIRMA-Threat-Update-The-return-of-the-Emotet-malware.png" style = "width:80%; padding: 5%;">
 
-                <p>Once it has been installed on a device connected to a network, it is able to load tools onto the device to help it spread.</p>
+                <p>Emotet is a Trojan that is available through the malware-as-a-service model (MaaS), meaning that cyber criminals can install a package for a certain fee, and then direct the malware towards organizations.</p>
 
-                <p>So far, the main purpose of Emotet has been to construct botnets of infected computers, then to use these computers in what is called crimeware, or malware as a service. Access to the botnet may have been rented out, to other cybercrime groups.</p>
+                <p>As typical of many trojan horse viruses, it is mostly spread through email attachments containing Word documents. Appearing to be a legitimate reply to a previous message, the email may seem to contain invoices, shipping notices or even information about COVID-19. This payload then initiates a script that operates as a worm, infecting various software applications and systems, where it is able to load tools onto a device to help it spread.</p>
+
+                <p>Keith Mularski, managing director in the cybersecurity practice at consulting firm EY, stated about Emotet that in many cases, it “often sits idle for 30 to 45 days before it launches a ransomware attack.” It has proven to be highly effective as a Trojan because it continually downloads components as it works its way through systems, so much so that conventional security measures like firewalls have not proven to be effective because Emotet creates encrypted channels that network defenses can't detect.</p>
+
+                <p>So far, the main purpose of Emotet has been to construct botnets of infected computers, then to use these computers in what is called crimeware, or MaaS. Access to the botnet may have been rented out to other cybercrime groups. Emotet is estimated to be involved in 30% of all malware attacks, and a user may never even know if their computer has been compromised.</p>
 
                 <p>Besides using infected computers as a botnet, Emotet sometimes allowed the downloading of ransomware without the user’s knowledge, encrypting data and demanding a fee to access it.  Anybody can be a target of this, and even some schools and police stations have been attacked in a similar way.</p>
 
-                <p>The United States Department of Homeland Security estimates that the average Emotet incident causes 1 million dollars in damage. While basic cybersecurity awareness is helpful, many anti-virus softwares struggle to detect botnet malware such as Emotet. This is because it is polymorphic, meaning that the virus code changes each time it is called up. Be cautious opening any email attachment, even ones that seem to be safe file types like word documents, and contact the sender at a number or email address that you know to be theirs to double check.</p>
+                <p>The United States Department of Homeland Security estimates that the average Emotet incident causes 1 million dollars in damage. However, through what Interpol has dubbed “Operation Ladybird,” police have been able to take down Emotet’s infrastructure from the inside.</p>
+
+                <img src="https://www.europol.europa.eu/sites/default/files/images/editor/emotet_infographic-01.jpg" style="width:85%; padding: 5%;">
+
+                <p>While basic cybersecurity awareness is helpful, many anti-virus softwares struggle to detect botnet malware such as Emotet. This is because it is polymorphic, meaning that the virus code changes each time it is called up. Be cautious opening any email attachment, even ones that seem to be safe file types like word documents, and contact the sender at a number or email address that you know to be theirs to double check. </p>
 
                 <h1>
                     Sources
@@ -72,9 +78,17 @@
                 <p>
                     <a href="https://www.fbi.gov/news/stories/emotet-malware-disrupted-020121">Emotet Malware Disrupted</a> </br>
                     <a href="https://www.eurojust.europa.eu/worlds-most-dangerous-malware-emotet-disrupted-through-global-action">World's Most Dangerous Malware Emotet Disrupted Through Global Action</a> </br>
-                    <a href="https://www.kaspersky.com/resource-center/threats/emotet">Emotet</a>
+                    <a href="https://www.kaspersky.com/resource-center/threats/emotet">Emotet</a> </br>
+                    <a href="https://www.tripwire.com/state-of-security/security-data-protection/cyber-security/emotet-botnet-takedown-what-you-need-to-know/#:~:text=Emotet%20is%20an%20extremely%20advanced,other%20malware%20onto%20users'%20computers">Emotet Botnet Takedown</a>
                 </p>
 
+                <div class="container">
+                  <div class="center">
+                    <button class="button" id="backhome">
+                      <a href="index.html">back home</a>
+                  </button>
+                  </div>
+                </div>
 
             </div>
           </div>  
